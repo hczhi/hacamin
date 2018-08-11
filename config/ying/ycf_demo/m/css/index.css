@@ -1,0 +1,147 @@
+/* BEM support Func
+ -------------------------- */
+/* rem support Func
+ -------------------------- */
+/* BEM
+ -------------------------- */
+.banner {
+  width: 1260px;
+  margin: 0 auto 50px;
+  display: block;
+  position: relative;
+  height: 670px;
+  overflow: hidden; }
+  .banner img {
+    height: 670px;
+    width: 1260px; }
+  .banner .banner_name {
+    position: absolute;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 0 3px 2px #666;
+    right: 40px;
+    top: 120px; }
+  .banner .banner_time {
+    position: absolute;
+    font-size: 16px;
+    color: #fff;
+    text-shadow: 0 3px 2px #666;
+    right: 40px;
+    top: 90px; }
+
+.banner2 {
+  width: 1260px;
+  margin: 0 auto;
+  display: block;
+  height: 475px;
+  overflow: hidden;
+  position: relative; }
+  .banner2 .banner2_pic {
+    float: left;
+    width: 725px;
+    height: 475px;
+    overflow: hidden; }
+    .banner2 .banner2_pic img {
+      transition: all 2s;
+      -webkit-transition: all 2s;
+      width: 725px;
+      height: 475px;
+      transform: scale(1.05, 1.05);
+      -webkit-transform: scale(1.05, 1.05); }
+  .banner2 .banner2_text {
+    float: left;
+    width: 535px;
+    text-align: center; }
+    .banner2 .banner2_text .name {
+      font-size: 24px;
+      color: #333;
+      text-decoration: none;
+      margin: 180px auto 10px;
+      display: block; }
+    .banner2 .banner2_text .type {
+      display: block;
+      width: 200px;
+      text-align: center;
+      font-size: 20px;
+      color: #333;
+      text-decoration: none;
+      border-top: 1px solid #333;
+      margin: 0 auto;
+      padding-top: 10px; }
+
+.banner2:hover .banner2_pic img {
+  transform: scale(1, 1);
+  -webkit-transform: scale(1, 1); }
+
+/* BEM support Func
+ -------------------------- */
+/* rem support Func
+ -------------------------- */
+/* BEM
+ -------------------------- */
+#head {
+  width: 1260px;
+  margin: 75px auto 50px;
+  height: 71px;
+  position: relative; }
+  #head .headBox {
+    transition: all 2s;
+    -webkit-transition: all 2s;
+    transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    opacity: 1; }
+  #head .hideHead {
+    opacity: 0;
+    transform: translate(0, -100px);
+    -webkit-transform: translate(0, -100px); }
+  #head .logo {
+    height: 52.5px;
+    width: 37.5px;
+    float: left;
+    display: block;
+    line-height: 52.5px;
+    padding: 0 60px 0 30px; }
+    #head .logo img {
+      height: 52.5px;
+      width: 37.5px;
+      vertical-align: middle; }
+  #head .nav {
+    height: 71px;
+    float: left;
+    width: 300px;
+    line-height: 71px;
+    font-size: 24px; }
+    #head .nav a {
+      text-decoration: none;
+      color: #333;
+      width: 60px;
+      text-align: center;
+      display: block;
+      float: left;
+      margin: 0 20px;
+      position: relative; }
+      #head .nav a:before {
+        content: "";
+        width: 0px;
+        height: 2px;
+        color: #333;
+        position: absolute;
+        left: 50%;
+        margin-left: -0px;
+        bottom: 10px;
+        background: #333;
+        transition: all 0.3s;
+        -webkit-transition: all 0.3s; }
+    #head .nav a:hover:before {
+      width: 30px;
+      margin-left: -15px; }
+  #head .icon-sousuo {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 28px;
+    color: #333;
+    cursor: pointer; }
+
+
+/*# sourceMappingURL=index.css.map?v=1533032896250*/

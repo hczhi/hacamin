@@ -1,0 +1,23 @@
+/**
+ * 申请职位接口
+ *
+ * @url /applyForPosition
+ *
+ *  详细的说明
+ *  传递参数：
+ *	参数名		描述			类型		是否必传
+ *  postionId  职位ID		     int	      是
+ *   name	  申请人姓名	    string	      是
+ *   email    申请人邮箱	    string	      是 
+ *   phone    申请人手机        string	      是
+ */
+ 
+{
+    "code": 1000,
+    "bcode": 100,
+    "message": "申请成功",
+    "timeStamp": 1502676780,
+    "content": {
+        "tips": "请在一周内将简历/作品投递至邮箱：<br>zhaopin@yaochufa.com<br>如推荐人自己或代人申请职位，<br>请在邮件主题备注推荐人手机<br>如已投递，请忽略该提示"
+    }
+}

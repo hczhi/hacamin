@@ -1,0 +1,74 @@
+#head{
+    width:1260px;
+    margin: 75px auto 50px;
+    height: 71px;
+    position: relative;
+    .headBox{
+         @include transition(all 2s);
+         @include transform(translate(0,0));
+         opacity: 1;
+    }
+    .hideHead{
+        opacity: 0;
+        @include transform(translate(0,-100px));
+    }
+    .logo{
+       height: 35*1.5px;
+            width: 25*1.5px;
+            float: left;
+        display: block;
+        line-height:35*1.5px;
+        padding: 0 60px 0 30px;
+        img{
+            height: 35*1.5px;
+            width: 25*1.5px;
+            vertical-align: middle;
+        }
+    }
+    .nav{
+        height: 71px;
+        float: left;
+        width: 300px;
+        line-height: 71px;
+        font-size: 24px;
+        a{
+            text-decoration: none;
+            color: #333;
+            width: 60px;
+            text-align: center;
+            display: block;
+            float: left;
+            margin: 0 20px;
+            position: relative;
+            &:before{
+                content: "";
+                width: 0px;
+                height: 2px;
+                color: #333;
+                position: absolute;
+                left: 50%;
+                margin-left: -0px;
+                bottom: 10px;
+                background: #333;
+                @include transition(all 0.3s);
+            }
+        }
+        a:hover{
+            &:before{
+                width: 30px;
+                 margin-left: -15px;
+            }
+        }
+    }
+    .icon-sousuo{
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        font-size: 28px;
+        color: #333;
+        cursor: pointer;
+    }
+}
+
+
+
